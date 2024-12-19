@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1700575955 source:c:\users\smart_cloud\desktop\project\airline\main.cpp
+	<fstream>
+	<windows.h>
+	<unistd.h>
+	<iostream>
+	<cstdlib>
+	"user/customer/customer.h"
+	"tickets/tickets.h"
+	"user/admin/admin.h"
+	"user/user.h"
+
+1700575956 c:\users\smart_cloud\desktop\project\airline\user\customer\customer.h
+	"../user.h"
+	"../../tickets/tickets.h"
+
+1700575955 c:\users\smart_cloud\desktop\project\airline\user\user.h
+	<iostream>
+	<fstream>
+
+1700572845 c:\users\smart_cloud\desktop\project\airline\tickets\tickets.h
+	<iostream>
+
+1700575957 c:\users\smart_cloud\desktop\project\airline\user\admin\admin.h
+	"../user.h"
+	"../../tickets/tickets.h"
+
